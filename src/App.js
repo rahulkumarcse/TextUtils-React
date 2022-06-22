@@ -9,7 +9,6 @@ function App() {
         Still In Development !!! <br/>
         About me ? 
         <a href='./Aboutme' onClick={<Aboutme/>}>Test Link</a>
-        
       </header> 
       <Aboutme/>
     </div>
