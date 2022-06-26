@@ -1,8 +1,19 @@
+
 function Aboutme(){
     return(
+        <div>
+  <image src='./images/about-me.jpg'>Image</image>      
 <p1>
-    I am Rahul , a FullStack Developer as well as Data Engineer  :) Having skills of both .
+    Hello folks ,<br/>
+    I am Rahul , a Software Engineer who likes to code and develop cool stuffs useful for everyone :). <br/>
+    Connect with me on Instagram @ rahul__kumarp
 </p1>
+const temp = 1
+temp =4
+console.log(temp)
+        </div>
+       
+
     );
 }
 
