@@ -42,8 +42,6 @@ export default function TextForm(props) {
           }
         
         }
-        console.log(varcount);
-
        return varcount;
     }
     const [text, setText] = useState("");
