@@ -47,8 +47,8 @@ function App() {
         <div className='container  my-3' >
           <Routes>
             console.log("test hotupdate")
-            <Route path="/about" element={<About/>} />
-            <Route path="/" element={<Textform heading='Enter text to analyze' showAlert={showAlert} mode={mode} />} />
+            <Route exact path="/about" element={<About/>} />
+            <Route exact path="/" element={<Textform heading='Enter text to analyze' showAlert={showAlert} mode={mode} />} />
           </Routes>
         </div>
       </Router>
